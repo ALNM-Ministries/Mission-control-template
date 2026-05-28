@@ -132,7 +132,7 @@ export default function LiveMediaHub() {
   }
 
   return (
-    <div style={{ minHeight: "100vh", background: "#1E2640", padding: 24 }}>
+    <div style={{ minHeight: "100vh", background: "#0B0F19", padding: 24 }}>
       <div style={{ maxWidth: 1000, margin: "0 auto" }}>
         {/* Header */}
         <div style={{ marginBottom: 20 }}>

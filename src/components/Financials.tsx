@@ -664,7 +664,7 @@ export default function Financials() {
       style={{
         padding: "32px 40px",
         minHeight: "100vh",
-        background: "#1E2640",
+        background: "#0B0F19",
       }}
     >
       {/* Header */}
@@ -731,7 +731,7 @@ export default function Financials() {
               activeTab === "business"
                 ? "linear-gradient(135deg, #10B981 0%, #059669 100%)"
                 : "transparent",
-            color: activeTab === "business" ? "#1E2640" : "#8A8F98",
+            color: activeTab === "business" ? "#0B0F19" : "#8A8F98",
             boxShadow:
               activeTab === "business"
                 ? "0 4px 12px rgba(16, 185, 129, 0.3)"

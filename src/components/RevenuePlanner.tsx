@@ -126,7 +126,7 @@ export default function RevenuePlanner({ demoId, onLocked }: RevenuePlannerProps
   // Lock animation overlay
   if (locking) {
     return (
-      <div style={{ minHeight: "100vh", background: "#1E2640", display: "flex", alignItems: "center", justifyContent: "center" }}>
+      <div style={{ minHeight: "100vh", background: "#0B0F19", display: "flex", alignItems: "center", justifyContent: "center" }}>
         <div style={{ textAlign: "center", maxWidth: 500 }}>
           <div
             style={{
@@ -184,7 +184,7 @@ export default function RevenuePlanner({ demoId, onLocked }: RevenuePlannerProps
   }
 
   return (
-    <div style={{ minHeight: "100vh", background: "#1E2640", padding: 24 }}>
+    <div style={{ minHeight: "100vh", background: "#0B0F19", padding: 24 }}>
       <div style={{ maxWidth: 900, margin: "0 auto" }}>
         {/* Header */}
         <div style={{ marginBottom: 24 }}>
