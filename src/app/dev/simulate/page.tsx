@@ -195,7 +195,7 @@ export default function SimulatePage() {
   };
 
   return (
-    <div style={{ minHeight: "100vh", background: "#0B0F19", fontFamily: "'Inter', system-ui, sans-serif", color: "#F5F7FA", padding: 24 }}>
+    <div style={{ minHeight: "100vh", background: "#1E2640", fontFamily: "'Inter', system-ui, sans-serif", color: "#F5F7FA", padding: 24 }}>
       <div style={{ maxWidth: 900, margin: "0 auto" }}>
         {/* Header */}
         <div style={{ marginBottom: 24, borderBottom: "1px solid rgba(255,255,255,0.06)", paddingBottom: 16 }}>

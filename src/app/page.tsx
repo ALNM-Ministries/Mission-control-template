@@ -93,7 +93,7 @@ export default function Home() {
   useSSE({ onEvent: handleSSE });
 
   return (
-    <div style={{ display: "flex", flexDirection: "column", minHeight: "100vh", background: "#0B0F19" }}>
+    <div style={{ display: "flex", flexDirection: "column", minHeight: "100vh", background: "#1E2640" }}>
       {/* DB Warning Banner */}
       {dbWarning && (
         <div style={{
@@ -121,7 +121,7 @@ export default function Home() {
         <div style={{
           width: 240,
           minWidth: 240,
-          background: "linear-gradient(180deg, #111624 0%, #0B0F19 100%)",
+          background: "linear-gradient(180deg, #252F4A 0%, #1E2640 100%)",
           borderRight: "1px solid rgba(255,255,255,0.06)",
           display: "flex",
           flexDirection: "column",

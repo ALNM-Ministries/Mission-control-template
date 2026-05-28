@@ -198,7 +198,7 @@ export default function LiveKanban() {
   }
 
   return (
-    <div style={{ minHeight: "100vh", background: "#0B0F19", padding: 24 }}>
+    <div style={{ minHeight: "100vh", background: "#1E2640", padding: 24 }}>
       {/* Header */}
       <div style={{ marginBottom: 20 }}>
         <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: 16 }}>

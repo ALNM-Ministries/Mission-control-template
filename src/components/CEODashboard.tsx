@@ -300,11 +300,11 @@ export default function CEODashboard() {
   const d = useMemo(() => generateData(fromISO(startDate), fromISO(endDate)), [startDate, endDate]);
 
   return (
-    <div style={{ minHeight: "100vh", background: "#0B0F19", fontFamily: "'Inter', system-ui, sans-serif", color: "#F5F7FA" }}>
+    <div style={{ minHeight: "100vh", background: "#1E2640", fontFamily: "'Inter', system-ui, sans-serif", color: "#F5F7FA" }}>
       <div style={{ height: 3, background: "linear-gradient(90deg, #2F80FF, #7B61FF, #FF4EDB, #7B61FF, #2F80FF)" }} />
 
       {/* Header */}
-      <div style={{ background: "linear-gradient(180deg, #111624, #0B0F19)", borderBottom: "1px solid rgba(255,255,255,0.06)", padding: "20px 24px 16px" }}>
+      <div style={{ background: "linear-gradient(180deg, #252F4A, #1E2640)", borderBottom: "1px solid rgba(255,255,255,0.06)", padding: "20px 24px 16px" }}>
         <div style={{ maxWidth: 1200, margin: "0 auto" }}>
           <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", flexWrap: "wrap", gap: 12 }}>
             <div>
